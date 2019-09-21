@@ -1,0 +1,224 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+#iconSubir{
+
+    height:50px;
+    margin:0.1% 0 0 95%;
+}
+#foto{
+    border-radius:100%;
+    width:20%;
+    height:160px;
+    margin: 0 0 0 1%;
+    border:1px solid gray;
+    position:relative;
+}
+#info{
+    background-color:white;
+    box-shadow:1px 1px 15px;
+    width:50%;
+    margin:3% 0 0 150px;
+    height:250px;
+    padding:1%;
+}
+
+#foto:hover{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1);
+     transform: scale(1.1); 
+}
+
+
+#slide{
+
+    height:450px;
+    box-shadow: 0.5px 0.5px 8px rgba(0,0,0,0.5);
+    width:750px;
+    margin:5% 0 0 1.5%;
+    padding:5px;
+
+}
+#slide > #imagen{
+
+    border:none;
+    height: 450px;
+    width: 100%;
+} 
+
+#slide> #imagen:hover{
+
+    filter:brightness(0.7) blur(1px);
+
+}
+
+#text{
+    height:10px;
+    background-color: red;
+}
+
+#contenido{
+    display: flex;
+}
+
+#details{
+
+    height:450px;
+    box-shadow: 0.5px 0.5px 8px rgba(0,0,0,0.5);
+    width:700px;
+    margin:5% 0 0 1.5%;
+    padding:5px;
+
+}
+
+#details > #texto{
+
+    background-color:rgba(0,0,0,0.05);
+    height: 390px;
+    font-size:25px;
+    margin:10px 0 0 0;
+    text-align:justify;
+    padding:20px;
+    font-family: calibri;
+    color:rgba(0,0,0,0.60);
+    overflow-y: scroll;
+    
+    position: relative;
+
+        
+} 
+
+#galeria{
+    display:flex;
+    height:100px;
+    margin: 1% 5% 0 2%;
+    border-top:1px solid rgb(201, 200, 200);
+    border-bottom:1px solid  rgb(201, 200, 200);
+    
+
+}
+#galeria > #box{
+
+    height:80px;
+    border:1px solid  rgb(201, 200, 200);
+    width:120px;
+    margin:3px 5px 0 5px;
+    background-color: white;
+    padding:5px;
+    
+    
+}
+
+.pic{
+    position: relative;
+    width:100%;
+    height:80px;
+    transform: transition 10s;
+    margin:0 0 0 0 ;
+    
+}
+.pic:hover{
+
+transform: scale(1.1);
+border:2px solid gray;
+
+}
+
+#encabezado{
+
+background-color:white;
+height:60px;
+z-index:1000;
+position:fixed;
+left:0;
+right:0;
+top:0px;
+box-shadow:0.5px 0.5px 3px rgba(0,0,0,0.4);
+
+}
+#encabezado > h3{
+
+    font-family:mistral;
+    color:rgba(0,0,0,0.60);
+    font-size: 30px;
+    margin:15px 0 0 49%;
+
+} 
+
+#encabezado > .enlaces{
+    display: flex;
+    
+    width:3.5%;
+    margin:-3% 0 0 94%;
+}
+
+
+#encabezado > .enlaces > a > .iconos{
+    height:48px;
+    position: relative;
+    margin: 0  2.5px 0 2.5px;
+}
+
+#controls{
+
+    height:50px;
+    width: 15%;
+    position: relative;
+    top:0px;
+    display:flex;
+
+    margin: 0 0 0 44.1%;
+ }
+
+ #controls > .btnOption{
+    
+    border:1px solid rgba(0,0,0,0.2);
+    border-radius:5px;
+    width:120px;
+    height:40px;
+    position: relative;
+    top:10px;
+    margin:0 0 0 0;
+    font-size:20px;
+    color:rgba(0,0,0,0.2);
+    background-color: white;
+    cursor:pointer;
+}
+
+#controls > .next{
+
+border-radius: 0 10px 10px 0;
+position: relative;
+
+}
+#controls > .prev{
+
+    border-radius: 10px 0 0 10px;
+    position: relative;
+    
+    }
+
+#controls > .btnOption:hover{
+
+    background-color:rgba(0,0,0,0.02);
+    border:none;
+    color:gray;
+
+}
+#controls > h2 {
+    margin: 15px 0 0 585px;
+    font-family:mistral;
+    color:rgba(0,0,0,0.4);
+    font-size: 30px;
+}
+
+
+#piePagina{
+background-color:rgba(0,0,30,100);
+height:500px;
+position:relative;
+top:12vh;
+
+}
